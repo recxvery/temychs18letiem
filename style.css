@@ -1,0 +1,103 @@
+
+
+body {
+
+    background-color: #222230;
+
+}
+
+h2 {
+    color: aliceblue;
+    margin-top: 40px;
+
+}
+p {
+    color: aliceblue;
+}
+
+p{
+    display: inline;
+}
+
+@font-face {
+    font-family: 'Roboto' ;
+    src: url("/static/fonts/Roboto-Light.ttf") format("ttf");
+    font-display: swap;
+}
+
+.custom-font {
+    font-family: 'Roboto',sans-serif
+}
+
+body {
+    margin-top: 50px;
+    /* Верхний отступ */
+    margin-right: 50px;
+    /* Правый отступ */
+    margin-bottom: 30px;
+    /* Нижний отступ */
+    margin-left: 20px;
+    /* Левый отступ */
+    font-family: 'Roboto', sans-serif
+    }
+
+table {
+    clear: right;
+    float: right;
+    border: 5px solid;
+    background-color: white;
+}
+table {
+    overflow-x: auto;
+}
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+.main_spisok {
+    box-sizing: border-box;
+    width: 200px;
+    background-color: #38384e;
+    border: 1px solid #a2a9b1;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: rgb(162, 169, 177);
+            border-right-color: rgb(162, 169, 177);
+            border-bottom-color: rgb(162, 169, 177);
+            border-left-color: rgb(162, 169, 177);
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+}
+ol,li {
+    color: aliceblue;
+
+}
+
+a {
+    color: rgb(31, 180, 240);
+}
+
+
+
+
